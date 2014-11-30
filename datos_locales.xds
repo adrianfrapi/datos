@@ -1,0 +1,53 @@
+{
+    "name": "datos_locales",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "5.0.3.324",
+            "frameworkVersion": "2.4.0.482"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPhone",
+                "builtIn": true,
+                "height": 480,
+                "width": 320
+            },
+            "viewportOrientation": "portrait"
+        },
+        "urlPrefix": "http://localhost:1841",
+        "exportPath": "",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "projectHasEnabledWebServer": true
+    },
+    "xdsVersion": "3.1.0",
+    "xdsBuild": 1943,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000007,
+    "framework": "touch24",
+    "viewOrderMap": {
+        "view": [
+            "7aceb689-e978-4e3a-879e-a9ba132c9ee1"
+        ],
+        "store": [
+            "16f4362b-db51-4e06-9c5c-6f95300e6df5"
+        ],
+        "controller": [],
+        "model": [
+            "e86696ad-e3c0-47ef-85cb-f28409d3fed5"
+        ],
+        "resource": [
+            "247b8495-d687-4396-93be-8cc4147b99ca",
+            "faf9972f-72ea-4ad3-81de-190b5226d3ad"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

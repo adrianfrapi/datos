@@ -1,0 +1,58 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userClassName": "MyContainer",
+        "layout": "fit"
+    },
+    "name": "MyContainer",
+    "designerId": "7aceb689-e978-4e3a-879e-a9ba132c9ee1",
+    "cn": [
+        {
+            "type": "Ext.dataview.List",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": null,
+                "emptyText": "cargando",
+                "grouped": true,
+                "store": "MyStore"
+            },
+            "name": "MyList",
+            "designerId": "facab479-c61f-4b12-add8-7ce84f967e15",
+            "configMeta": {
+                "data": {
+                    "mock": true
+                }
+            },
+            "cn": [
+                {
+                    "type": "Ext.XTemplate",
+                    "reference": {
+                        "name": "itemTpl",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": "itemTpl",
+                        "implHandler": [
+                            "<div>List Item {id}</div>",
+                            "<div>List Item {title}</div>",
+                            "<div>List Item {subtitle}</div>"
+                        ]
+                    },
+                    "name": "itemTpl",
+                    "designerId": "75f5605c-b017-4e7c-892f-8d5df71b215a"
+                }
+            ]
+        }
+    ]
+}

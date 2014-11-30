@@ -1,0 +1,77 @@
+{
+    "type": "Ext.data.Store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "designer|userClassName": "MyStore",
+        "model": "MyModel",
+        "storeId": "MyStore"
+    },
+    "name": "MyStore",
+    "designerId": "16f4362b-db51-4e06-9c5c-6f95300e6df5",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "/datos_locales/resources/data/convertcsv.json"
+            },
+            "name": "MyAjaxProxy1",
+            "designerId": "ad239e54-29de-47bc-a601-a595718628b4",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "rootProperty": "roads"
+                    },
+                    "name": "MyJsonReader",
+                    "designerId": "70c8dd37-54c7-42e5-aad2-9f1bafe22735"
+                }
+            ]
+        },
+        {
+            "type": "Ext.util.Grouper",
+            "reference": {
+                "name": "grouper",
+                "type": "object"
+            },
+            "codeClass": null,
+            "name": "MyGrouper",
+            "designerId": "a9f6c055-8681-4f2a-b72a-6f18d7fc6879",
+            "cn": [
+                {
+                    "type": "fixedfunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|params": [
+                            "item"
+                        ],
+                        "fn": "groupFn",
+                        "implHandler": [
+                            "                return item.get('subtitle');"
+                        ]
+                    },
+                    "name": "groupFn",
+                    "designerId": "86e4ea1b-9217-45ab-a231-09ee05bb8fb5"
+                }
+            ]
+        }
+    ]
+}

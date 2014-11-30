@@ -1,0 +1,22 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "MyModel"
+        ],
+        "name": "datos_locales",
+        "stores": [
+            "MyStore"
+        ],
+        "views": [
+            "MyContainer"
+        ]
+    },
+    "name": "Application",
+    "designerId": "application"
+}

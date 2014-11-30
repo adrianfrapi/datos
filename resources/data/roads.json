@@ -1,0 +1,28 @@
+{"roads":[
+    {
+        "id":"i10",
+        "title":"Interstate 10 Arizona",
+        "subtitle":"Papago Freeway/Maricopa Freeway"
+    },
+    {
+        "id":"i17",
+        "title":"Interstate 17 Arizona",
+        "subtitle":"Black Canyon Freeway"
+    },
+    {
+        "id":"l101",
+        "title":"Arizona State Route 101",
+        "subtitle":"Loop 101"
+    },
+    {
+        "id":"102",
+        "title":"Avenida de no se que",
+        "subtitle":"el no se que 101"
+    },
+    {
+        "id":"l104",
+        "title":"ruta de la lora",
+        "subtitle":"Lo que?"
+    },
+
+]}
