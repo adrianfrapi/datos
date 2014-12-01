@@ -1,0 +1,37 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyController",
+        "requires": [
+            "Ext.MessageBox"
+        ]
+    },
+    "name": "MyController",
+    "designerId": "2df61c21-a5e5-4441-ab18-174e9ade1929",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "list",
+                "designer|targetType": "Ext.dataview.List",
+                "fn": "onListItemTap",
+                "implHandler": [
+                    "        Ext.Msg.alert('', 'telefono: ' + record.get('telefono'));"
+                ],
+                "name": "itemtap"
+            },
+            "name": "onListItemTap",
+            "designerId": "10b39943-f034-40c2-b575-4f69b99583ef"
+        }
+    ]
+}

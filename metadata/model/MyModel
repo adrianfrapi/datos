@@ -49,6 +49,19 @@
             },
             "name": "field2",
             "designerId": "905fbc1b-1699-4379-9f53-e78c536c0943"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "telefono"
+            },
+            "name": "field3",
+            "designerId": "a67a0864-159b-454e-9eb7-1b63106b4ac3"
         }
     ]
 }

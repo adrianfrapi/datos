@@ -29,6 +29,9 @@ Ext.application({
     views: [
         'MyContainer'
     ],
+    controllers: [
+        'MyController'
+    ],
     name: 'datos_locales',
 
     launch: function() {
