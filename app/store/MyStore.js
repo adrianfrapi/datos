@@ -29,7 +29,7 @@ Ext.define('datos_locales.store.MyStore', {
         storeId: 'MyStore',
         proxy: {
             type: 'ajax',
-            url: '/datos_locales/resources/data/convertcsv.json',
+            url: 'resources/data/convertcsv.json',
             reader: {
                 type: 'json',
                 rootProperty: 'roads'

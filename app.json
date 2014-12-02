@@ -41,8 +41,8 @@
    "resources": [
       "resources/images",
       "resources/icons",
-      "resources/startup"
-	  "resources/data"
+      "resources/startup",
+      "resources/data"
    ],
    "ignore": [
       ".svn$"

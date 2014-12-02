@@ -667,6 +667,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
+  "datos_locales.controller.MyController": [],
   "datos_locales.model.MyModel": [],
   "datos_locales.store.MyStore": [],
   "datos_locales.view.MyContainer": []
@@ -1401,6 +1402,7 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
+  "datos_locales.controller.MyController": [],
   "datos_locales.model.MyModel": [],
   "datos_locales.store.MyStore": [],
   "datos_locales.view.MyContainer": []
